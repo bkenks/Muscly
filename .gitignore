@@ -1,4 +1,6 @@
-/.env
+#### .env files ####
+/server/config.env
+
 
 #### Node .gitignore Template ####
 
