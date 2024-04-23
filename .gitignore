@@ -1,8 +1,22 @@
 #### .env files ####
 /server/config.env
 
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 #### Node .gitignore Template ####
+
+node_modules
+dist-ssr
+*.local
 
 # Logs
 logs
