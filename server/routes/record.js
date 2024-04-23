@@ -4,7 +4,7 @@ import express from "express";
 import db from "../db/connection.js";
 
 // this is to convert db to ObjectId for the _id
-import { ObjectID } from "mongodb";
+import { ObjectId } from "mongodb";
 
 // this router will handle all requests starting with path /record
 const router = express.Router();

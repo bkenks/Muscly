@@ -3,7 +3,7 @@ import { MongoClient, ServerApiVersion } from "mongodb";
 const uri = process.env.ATLAS_URI || "";
 const client = new MongoClient(uri, {
     serverAPI: {
-        version: serverAPI.v1,
+        version: ServerApiVersion.v1,
         strict: true,
         deprecationErrors: true,
     },
